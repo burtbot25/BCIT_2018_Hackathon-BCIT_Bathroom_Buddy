@@ -1,0 +1,834 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+    \'93businesses\'94: [\
+        \{\
+            \'93id\'94: \'93sushi-s-japanese-restaurant-burnaby\'94,\
+            \'93name\'94: \'93Sushi S Japanese Restaurant\'94,\
+            \'93image_url\'94: \'93https://s3-media2.fl.yelpcdn.com/bphoto/DZzmVlX_SyTiCuacdhu45Q/o.jpg\'93,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/sushi-s-japanese-restaurant-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 57,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93japanese\'94,\
+                    \'93title\'94: \'93Japanese\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93sushi\'94,\
+                    \'93title\'94: \'93Sushi Bars\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2425418,\
+                \'93longitude\'94: -123.0036195\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934739 Willingdon Avenue\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 3H5\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934739 Willingdon Avenue\'94,\
+                    \'93Burnaby, BC V5G 3H5",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044379399\'94,\
+            \'93display_phone\'94: \'93+1 604-437-9399\'94,\
+            \'93distance\'94: 681.9224517068\
+        \},\
+        \{\
+            \'93id\'94: \'93atlas-steak-fish-burnaby\'94,\
+            \'93name\'94: \'93Atlas steak + fish\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/j96dBD8u6puEpc29SvFQ2Q/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/atlas-steak-fish-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 10,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93steak\'94,\
+                    \'93title\'94: \'93Steakhouses\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93seafood\'94,\
+                    \'93title\'94: \'93Seafood\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.25674,\
+                \'93longitude\'94: -123.00728\
+            \},\
+            \'93transactions\'94: [],\
+            \'93location\'94: \{\
+                \'93address1": \'934331 Dominion Street\'94,\
+                \'93address2": null,\
+                \'93address3\'94: \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 1C7",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934331 Dominion Street\'94,\
+                    \'93Burnaby, BC V5G 1C7\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044530776",\
+            \'93display_phone\'94: \'93+1 604-453-0776",\
+            \'93distance\'94: 1000.5343384583999\
+        \},\
+        \{\
+            \'93id\'94: \'93katsu-japanese-burnaby\'94,\
+            \'93name\'94: \'93Katsu Japanese\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/Po0nmh6_wmfCM9UEAfOM7Q/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/katsu-japanese-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 26,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93japanese\'94,\
+                    \'93title\'94: \'93Japanese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.25674,\
+                \'93longitude\'94: -123.00728\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934331 Dominion Street\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 1C7\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934331 Dominion Street\'94,\
+                    \'93Burnaby, BC V5G 1C7",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044356002\'94,\
+            \'93display_phone\'94: \'93+1 604-435-6002\'94,\
+            \'93distance\'94: 1000.5343384583999\
+        \},\
+        \{\
+            \'93id\'94: \'93the-keg-steakhouse-bar-burnaby-burnaby\'94,\
+            \'93name\'94: \'93The Keg Steakhouse + Bar - Burnaby\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/hkYShI_0DUI5d8vnmVKqUg/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/the-keg-steakhouse-bar-burnaby-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 126,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93steak\'94,\
+                    \'93title\'94: \'93Steakhouses\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93bars\'94,\
+                    \'93title\'94: \'93Bars\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93seafood\'94,\
+                    \'93title\'94: \'93Seafood\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2595879459595,\
+                \'93longitude\'94: -123.001998363914\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934510 Stillcreek Avenue\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5C 0B5\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934510 Stillcreek Avenue\'94,\
+                    \'93Burnaby, BC V5C 0B5",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16042944626\'94,\
+            \'93display_phone\'94: \'93+1 604-294-4626\'94,\
+            \'93distance\'94: 1233.4870598482\
+        \},\
+        \{\
+            \'93id\'94: \'93el-inka-latin-deli-burnaby\'94,\
+            \'93name\'94: \'93El Inka Latin Deli\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/Yqx085Uy_zJsdQT7NFcGTg/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/el-inka-latin-deli-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 33,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93peruvian\'94,\
+                    \'93title\'94: \'93Peruvian\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93colombian\'94,\
+                    \'93title\'94: \'93Colombian\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93delis\'94,\
+                    \'93title\'94: \'93Delis\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.24941,\
+                \'93longitude\'94: -123.01912\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'933826 Sunset Street\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'933826 Sunset Street\'94,\
+                    \'93Burnaby, BC V5G\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044344545\'94,\
+            \'93display_phone\'94: \'93+1 604-434-4545\'94,\
+            \'93distance\'94: 1296.080520594\
+        \},\
+        \{\
+            \'93id\'94: \'93sooda-korean-bbq-burnaby\'94,\
+            \'93name\'94: \'93Sooda Korean BBQ\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/ve3ce8ZVcJWtzYwM9jJWDw/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/sooda-korean-bbq-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 11,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93korean\'94,\
+                    \'93title\'94: \'93Korean\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93bbq\'94,\
+                    \'93title\'94: \'93Barbeque\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2666663,\
+                \'93longitude\'94: -123.0046173\
+            \},\
+            \'93transactions\'94: [],\
+            \'93location\'94: \{\
+                \'93address1": \'934455 Lougheed Highway\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": null,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5C 3Z2",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934455 Lougheed Highway\'94,\
+                    \'93Burnaby, BC V5C 3Z2\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044289227",\
+            \'93display_phone\'94: \'93+1 604-428-9227",\
+            \'93distance\'94: 2040.585827496\
+        \},\
+        \{\
+            \'93id\'94: \'93morak-korean-restaurant-burnaby\'94,\
+            \'93name\'94: \'93Morak Korean Restaurant\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/OFjH4e4JVlZpx2XZTaHznQ/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/morak-korean-restaurant-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 75,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93korean\'94,\
+                    \'93title\'94: \'93Korean\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2271215,\
+                \'93longitude\'94: -122.9943107\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'936285 Nelson Avenue\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 4T3\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'936285 Nelson Avenue\'94,\
+                    \'93Burnaby, BC V5H 4T3",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044378839\'94,\
+            \'93display_phone\'94: \'93+1 604-437-8839\'94,\
+            \'93distance\'94: 2431.7819416199995\
+        \},\
+        \{\
+            \'93id\'94: \'93preference-noodle-house-burnaby-2",\
+            \'93name\'94: \'93Preference Noodle House\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/YPg_CezSUTqM1JR3q-8q1w/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/preference-noodle-house-burnaby-2?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 48,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93chinese\'94,\
+                    \'93title\'94: \'93Chinese\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93noodles\'94,\
+                    \'93title\'94: \'93Noodles\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2218507521499,\
+                \'93longitude\'94: -122.994655126677\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934854 Imperial Street\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5J 1C4\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934854 Imperial Street\'94,\
+                    \'93Burnaby, BC V5J 1C4",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16045580995\'94,\
+            \'93display_phone\'94: \'93+1 604-558-0995\'94,\
+            \'93distance\'94: 3003.199512842\
+        \},\
+        \{\
+            \'93id\'94: \'93no-1-beef-noodle-house-burnaby-3",\
+            \'93name\'94: \'93No.1 Beef Noodle House\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/OVCK6uvmTPida45zAw1H9g/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/no-1-beef-noodle-house-burnaby-3?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 84,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93taiwanese\'94,\
+                    \'93title\'94: \'93Taiwanese\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93noodles\'94,\
+                    \'93title\'94: \'93Noodles\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93chinese\'94,\
+                    \'93title\'94: \'93Chinese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2425346,\
+                \'93longitude\'94: -123.0036175\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934741 Willingdon Avenue\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 3H5\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934741 Willingdon Avenue\'94,\
+                    \'93Burnaby, BC V5G 3H5",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044386648\'94,\
+            \'93display_phone\'94: \'93+1 604-438-6648\'94,\
+            \'93distance\'94: 690.6300110843999\
+        \},\
+        \{\
+            \'93id\'94: \'93ramen-raijin-burnaby\'94,\
+            \'93name\'94: \'93Ramen Raijin\'94,\
+            \'93image_url\'94: \'93https://s3-media4.fl.yelpcdn.com/bphoto/pKs7SChZEuNt7lWW8cnFIA/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/ramen-raijin-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 6,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93ramen\'94,\
+                    \'93title\'94: \'93Ramen\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2244381407379,\
+                \'93longitude\'94: -122.987787947059\
+            \},\
+            \'93transactions\'94: [],\
+            \'93location\'94: \{\
+                \'93address1": \'935280 Kingsway\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": null,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 2E9",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'935280 Kingsway\'94,\
+                    \'93Burnaby, BC V5H 2E9\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044281131",\
+            \'93display_phone\'94: \'93+1 604-428-1131",\
+            \'93distance\'94: 2851.767056202\
+        \},\
+        \{\
+            \'93id\'94: \'93yaguchiya-ramen-burnaby\'94,\
+            \'93name\'94: \'93Yaguchiya Ramen\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/iyLYOVBWGO214SI7zaGIlw/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/yaguchiya-ramen-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 37,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93ramen\'94,\
+                    \'93title\'94: \'93Ramen\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93soup\'94,\
+                    \'93title\'94: \'93Soup\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2286171,\
+                \'93longitude\'94: -122.9995963\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934679 Kingsway\'94,\
+                \'93address2": null,\
+                \'93address3\'94: \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 2B3",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934679 Kingsway\'94,\
+                    \'93Burnaby, BC V5H 2B3\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16046204679",\
+            \'93display_phone\'94: \'93+1 604-620-4679",\
+            \'93distance\'94: 2185.850166718\
+        \},\
+        \{\
+            \'93id\'94: \'93satomi-sushi-burnaby\'94,\
+            \'93name\'94: \'93Satomi Sushi\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/mDWszFU2S-mxvnjVnCsc_Q/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/satomi-sushi-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 52,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93sushi\'94,\
+                    \'93title\'94: \'93Sushi Bars\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93japanese\'94,\
+                    \'93title\'94: \'93Japanese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2286601024167,\
+                \'93longitude\'94: -122.999570555985\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934689 Kingsway\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 2B3\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934689 Kingsway\'94,\
+                    \'93Burnaby, BC V5H 2B3",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044376405\'94,\
+            \'93display_phone\'94: \'93+1 604-437-6405\'94,\
+            \'93distance\'94: 2210.001049296\
+        \},\
+        \{\
+            \'93id\'94: \'93the-bao-place-burnaby\'94,\
+            \'93name\'94: \'93The Bao Place\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/jgkRb8tVwXjEfgJHTrZwhg/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/the-bao-place-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 40,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93chinese\'94,\
+                    \'93title\'94: \'93Chinese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.22882,\
+                \'93longitude\'94: -123.00002\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$\'94,\
+            \'93location\'94: \{\
+                \'93address1": \'934673 Kingsway\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 2B3\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934673 Kingsway\'94,\
+                    \'93Burnaby, BC V5H 2B3",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+17787123228\'94,\
+            \'93display_phone\'94: \'93+1 778-712-3228\'94,\
+            \'93distance\'94: 2185.850166718\
+        \},\
+        \{\
+            \'93id\'94: \'93grand-dynasty-burnaby-2",\
+            \'93name\'94: \'93Grand Dynasty\'94,\
+            \'93image_url\'94: \'93https://s3-media4.fl.yelpcdn.com/bphoto/hZ6pYSjRPda-j89aeDXotQ/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/grand-dynasty-burnaby-2?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 52,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93chinese\'94,\
+                    \'93title\'94: \'93Chinese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.25674,\
+                \'93longitude\'94: -123.00728\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934331 Dominion St\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 3E3\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934331 Dominion St\'94,\
+                    \'93Burnaby, BC V5G 3E3",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044326002\'94,\
+            \'93display_phone\'94: \'93+1 604-432-6002\'94,\
+            \'93distance\'94: 990.2826334442\
+        \},\
+        \{\
+            \'93id\'94: \'93trattoria-burnaby\'94,\
+            \'93name\'94: \'93Trattoria\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/2NbiDDLHSWkV8GsOuIWVhg/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/trattoria-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 185,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93italian\'94,\
+                    \'93title\'94: \'93Italian\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.230274,\
+                \'93longitude\'94: -123.0046027\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934501 Kingsway\'94,\
+                \'93address2": \'93Suite 102\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 4V8\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934501 Kingsway\'94,\
+                    \'93Suite 102",\
+                    \'93Burnaby, BC V5H 4V8\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044248779",\
+            \'93display_phone\'94: \'93+1 604-424-8779",\
+            \'93distance\'94: 2041.940730842\
+        \},\
+        \{\
+            \'93id\'94: \'93joy-sushi-burnaby\'94,\
+            \'93name\'94: \'93Joy Sushi\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/mc04ubB-cHs6hGSYrS7obQ/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/joy-sushi-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 21,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93japanese\'94,\
+                    \'93title\'94: \'93Japanese\'94\
+                \}\
+            ],\
+            \'93rating\'94: 4.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2643086657704,\
+                \'93longitude\'94: -123.010636587766\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934248 Dawson Street\'94,\
+                \'93address2": null,\
+                \'93address3\'94: \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5C 0B8",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934248 Dawson Street\'94,\
+                    \'93Burnaby, BC V5C 0B8\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16045584010",\
+            \'93display_phone\'94: \'93+1 604-558-4010",\
+            \'93distance\'94: 1881.920192226\
+        \},\
+        \{\
+            \'93id\'94: \'93personas-burnaby\'94,\
+            \'93name\'94: \'93Personas\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/REdQvkjbNUYFEgI-0EjrSg/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/personas-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 29,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93lounges\'94,\
+                    \'93title\'94: \'93Lounges\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93tapas\'94,\
+                    \'93title\'94: \'93Tapas Bars\'94\
+                \}\
+            ],\
+            \'93rating\'94: 2.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2563112,\
+                \'93longitude\'94: -123.0053103\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934331 Dominion Street\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5G 1B2\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934331 Dominion Street\'94,\
+                    \'93Burnaby, BC V5G 1B2",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044362211\'94,\
+            \'93display_phone\'94: \'93+1 604-436-2211\'94,\
+            \'93distance\'94: 914.090314072\
+        \},\
+        \{\
+            \'93id\'94: \'93joey-burnaby-burnaby-3",\
+            \'93name\'94: \'93JOEY Burnaby\'94,\
+            \'93image_url\'94: \'93https://s3-media3.fl.yelpcdn.com/bphoto/cCeNeNuz-G9ZIDC2ZtHdCw/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/joey-burnaby-burnaby-3?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 127,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93newcanadian\'94,\
+                    \'93title\'94: \'93Canadian (New)\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.266936,\
+                \'93longitude\'94: -123.006692\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'931899 Rosser Ave\'94,\
+                \'93address2": \'93Suite 109\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5C 6S3\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'931899 Rosser Ave\'94,\
+                    \'93Suite 109",\
+                    \'93Burnaby, BC V5C 6S3\'94,\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16045645639",\
+            \'93display_phone\'94: \'93+1 604-564-5639",\
+            \'93distance\'94: 2086.043245136\
+        \},\
+        \{\
+            \'93id\'94: \'93grand-crystal-seafood-restaurant-burnaby\'94,\
+            \'93name\'94: \'93Grand Crystal Seafood Restaurant\'94,\
+            \'93image_url\'94: \'93https://s3-media1.fl.yelpcdn.com/bphoto/PcifGUxHI6Q_kNvNQn_9lQ/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/grand-crystal-seafood-restaurant-burnaby?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 22,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93dimsum\'94,\
+                    \'93title\'94: \'93Dim Sum\'94\
+                \},\
+                \{\
+                    \'93alias\'94: \'93seafood\'94,\
+                    \'93title\'94: \'93Seafood\'94\
+                \}\
+            ],\
+            \'93rating\'94: 3.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2290734,\
+                \'93longitude\'94: -123.0048795\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'932216-4500 Kingsway\'94,\
+                \'93address2": \'93\'94,\
+                \'93address3": \'93\'94,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 2A9\'94,\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'932216-4500 Kingsway\'94,\
+                    \'93Burnaby, BC V5H 2A9",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16044560388\'94,\
+            \'93display_phone\'94: \'93+1 604-456-0388\'94,\
+            \'93distance\'94: 2175.29418379\
+        \},\
+        \{\
+            \'93id\'94: \'93jinya-ramen-bar-burnaby-2",\
+            \'93name\'94: \'93JINYA Ramen Bar\'94,\
+            \'93image_url\'94: \'93https://s3-media2.fl.yelpcdn.com/bphoto/-0vRv-lF1F4xc22r4ylOfA/o.jpg\'94,\
+            \'93is_closed\'94: false,\
+            \'93url\'94: \'93https://www.yelp.com/biz/jinya-ramen-bar-burnaby-2?adjust_creative=TgzLm0Vv7M2UX2AQeSSl0Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=TgzLm0Vv7M2UX2AQeSSl0Q\'94,\
+            \'93review_count\'94: 85,\
+            \'93categories\'94: [\
+                \{\
+                    \'93alias\'94: \'93ramen\'94,\
+                    \'93title\'94: \'93Ramen\'94\
+                \}\
+            ],\
+            \'93rating\'94: 2.5,\
+            \'93coordinates\'94: \{\
+                \'93latitude\'94: 49.2249276,\
+                \'93longitude\'94: -123.0011791\
+            \},\
+            \'93transactions\'94: [],\
+            \'93price\'94: \'93$$\'93,\
+            \'93location\'94: \{\
+                \'93address1": \'934575 Central Blvd\'94,\
+                \'93address2": \'93Suite M01\'94,\
+                \'93address3": null,\
+                \'93city\'94: \'93Burnaby\'94,\
+                \'93zip_code\'94: \'93V5H 4J5",\
+                \'93country\'94: \'93CA\'94,\
+                \'93state\'94: \'93BC\'94,\
+                \'93display_address\'94: [\
+                    \'934575 Central Blvd\'94,\
+                    \'93Suite M01\'94,\
+                    \'93Burnaby, BC V5H 4J5",\
+                    \'93Canada\'94\
+                ]\
+            \},\
+            \'93phone\'94: \'93+16042292477\'94,\
+            \'93display_phone\'94: \'93+1 604-229-2477\'94,\
+            \'93distance\'94: 2712.203642996\
+        \}\
+    ],\
+    \'93total\'94: 235,\
+    \'93region\'94: \{\
+        \'93center\'94: \{\
+            \'93longitude\'94: -123.001375,\
+            \'93latitude\'94: 49.248499\
+        \}\
+    \}\
+\}}
