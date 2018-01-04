@@ -11,7 +11,7 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-    
+    <!-- Comment -->
     <div class="container text-center">
         <img src="logo.png">
         <div class="col-xs-12, title">
