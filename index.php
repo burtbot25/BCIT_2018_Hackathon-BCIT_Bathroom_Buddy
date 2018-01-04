@@ -1,3 +1,62 @@
+<?php session_start(); 
+
+extract($_POST);
+
+$cleanRating = $_POST['cleanRating'];
+$_SESSION['cleanTotal'];
+$_SESSION['cleanCount'];
+$smellRating = $_POST['smellRating'];
+$_SESSION['smellTotal'];
+$_SESSION['smellCount'];
+$trafficRating = $_POST['trafficRating'];
+$_SESSION['trafficTotal'];
+$_SESSION['trafficCount'];
+
+// Clean Rating
+if ($_SESSION['cleanCount'] == 0){
+    $_SESSION['cleanCount'] = 0;
+}
+
+if (isset($cleanRating)){
+    $_SESSION['cleanSum'] += $cleanRating;
+    $_SESSION['cleanCount'] += 1;
+} 
+
+if ($_SESSION['cleanCount'] != 0){
+    $_SESSION['cleanTotal'] = round(($_SESSION['cleanSum'] / $_SESSION['cleanCount']), 2);
+}
+
+// Smell Rating
+if ($_SESSION['smellCount'] == 0){
+    $_SESSION['smellCount'] = 0;
+}
+
+if (isset($smellRating)){
+    $_SESSION['smellSum'] += $smellRating;
+    $_SESSION['smellCount'] += 1;
+} 
+
+if ($_SESSION['smellCount'] != 0){
+    $_SESSION['smellTotal'] = round(($_SESSION['smellSum'] / $_SESSION['smellCount']), 2);
+}
+
+// Traffic Rating
+if ($_SESSION['trafficCount'] == 0){
+    $_SESSION['trafficCount'] = 0;
+}
+
+if (isset($trafficRating)){
+    $_SESSION['trafficSum'] += $trafficRating;
+    $_SESSION['trafficCount'] += 1;
+} 
+
+if ($_SESSION['trafficCount'] != 0){
+    $_SESSION['trafficTotal'] = round(($_SESSION['trafficSum'] / $_SESSION['trafficCount']), 2);
+}
+
+$_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTotal'] + $_SESSION['trafficTotal']) / 3), 2);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,11 +114,47 @@
                         <h4 class="card-title">Tim Horton's SE9</h4>
                         <p class="card-text">This bathroom has 6 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall: 4</li>
-                            <li class="list-group-item">Smell: 5</li>
-                            <li class="list-group-item">Cleanliness: 3</li>
-                            <li class="list-group-item">Traffic: 4</li>
-
+                            <li class="list-group-item">Overall: 
+                                <?php 
+                                    echo $_SESSION['overallTotal']; 
+                                ?> 
+                            </li>
+                            <li class="list-group-item">Smell: 
+                                <?php 
+                                    if (!isset($_SESSION['smellTotal'])){
+                                        $_SESSION['smellTotal'] = 0;
+                                    }
+                                    echo $_SESSION['smellTotal']; 
+                                ?> 
+                            </li>
+                            
+                            <li class="list-group-item">Cleanliness: 
+                                <?php 
+                                
+                                    if (!isset($_SESSION['cleanTotal'])){
+                                        $_SESSION['cleanTotal'] = 0;
+                                    }
+                                    echo $_SESSION['cleanTotal']; 
+                                ?> 
+                            </li>
+                            
+                            <li class="list-group-item">Traffic: 
+                                <?php
+                                    if (!isset($_SESSION['trafficTotal'])){
+                                        $_SESSION['trafficTotal'] = 0;
+                                    }
+                                    echo $_SESSION['trafficTotal']; 
+                                ?> 
+                            </li>
+                            <form class="form" role="form" method="post" action="index.php">
+                                Smell <input class="text-center" type="text" name="smellRating" id="smellRating" placeholder="Enter rating"/>
+                                <br />
+                                Cleanliness <input class="text-center" type="text" name="cleanRating" id="cleanRating" placeholder="Enter rating"/>
+                                <br />
+                                Traffic <input class="text-center" type="text" name="trafficRating" id="trafficRating" placeholder="Enter rating"/>
+                                <br />
+                                <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit"/>
+                            </form> 
                         </ul>
                     </div>
                     <div class="card-footer">
