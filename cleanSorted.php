@@ -96,7 +96,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
             <br />
 
             <div class="card-deck">
-                <div class="card">
+                <div class="card"> <!-- CARD ONE -->
                     <img class="card-img-top img-fluid" src="bathroom/bathroom1.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW4 - 4310</h4>
@@ -150,63 +150,8 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                     </div>
                 </div>
 
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="bathroom/bathroom2.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Tim Horton's SE9</h4>
-                        <p class="card-text">This bathroom has 3 stalls and 3 urinals.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall: 3.83</li>
-                            <li class="list-group-item">Smell: 3.5</li>
-                            <li class="list-group-item">Cleanliness: 4</li>
-                            <li class="list-group-item">Traffic: 4</li>
-                            <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
-                        </ul>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">SW1 - 1039</h4>
-                        <p class="card-text">This bathroom has 6 stalls and 2 urinals.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall: 3</li>
-                            <li class="list-group-item">Smell: 3</li>
-                            <li class="list-group-item">Cleanliness: 3</li>
-                            <li class="list-group-item">Traffic: 3</li>
-                            <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
-                        </ul>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Second card row -->
-            <br />
-
-            <div class="card-deck">
-                <div class="card">
+				
+                <div class="card"> <!-- CARD FOUR -->
                     <img class="card-img-top img-fluid" src="bathroom/bathroom4.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW9 - 2002</h4>
@@ -231,8 +176,66 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
+				
+				
+                <div class="card"><!-- CARD TWO -->
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Tim Horton's SE9</h4>
+                        <p class="card-text">This bathroom has 3 stalls and 3 urinals.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Overall: 3.83</li>
+                            <li class="list-group-item">Smell: 3.5</li>
+                            <li class="list-group-item">Cleanliness: 4</li>
+                            <li class="list-group-item">Traffic: 4</li>
+                            <form class="form" role="form" method="post" action="#">
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                            </form> 
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                
+            </div>
 
-                <div class="card">
+            <!-- Second card row -->
+            <br />
+
+            <div class="card-deck">
+                <div class="card"> <!-- CARD THREE -->
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">SW1 - 1039</h4>
+                        <p class="card-text">This bathroom has 6 stalls and 2 urinals.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Overall: 3</li>
+                            <li class="list-group-item">Smell: 3</li>
+                            <li class="list-group-item">Cleanliness: 3</li>
+                            <li class="list-group-item">Traffic: 3</li>
+                            <form class="form" role="form" method="post" action="#">
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                <br />
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                            </form> 
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card"> <!-- CARD FIVE -->
                     <img class="card-img-top img-fluid" src="bathroom/bathroom5.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE9 - 202</h4>
@@ -257,7 +260,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card"><!-- CARD SIX -->
                     <img class="card-img-top img-fluid" src="bathroom/bathroom6.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE12 - 1001</h4>
@@ -296,17 +299,18 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             $_SESSION['stalls'] = $_POST['stalls'];
                             $_SESSION['urinals'] = $_POST['urinals'];
 
+
                             $_SESSION['newBathroom'] =
-                                '<div id="card7" class="card">
+                                '<div id="card7" class="card" style="max-width: 31%;"> <!-- CARD SEVEN -->
                                         <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
                                             <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . ' stalls and ' . $_SESSION['urinals'] . ' urinals.</p>
                                             <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">Overall: ' . (($_POST['newsmell'] + $_POST['newclean'] + $_POST['newtraffic']) / 3) . '</li>
-                                                <li class="list-group-item">Smell: ' . $_POST['newsmell'] . '</li>
-                                                <li class="list-group-item">Cleanliness: ' . $_POST['newclean'] . '</li>
-                                                <li class="list-group-item">Traffic: ' . $_POST['newtraffic'] . '</li>
+                                                <li class="list-group-item">Overall: </li>
+                                                <li class="list-group-item">Smell: </li>
+                                                <li class="list-group-item">Cleanliness: </li>
+                                                <li class="list-group-item">Traffic: </li>
                                                 <form class="form" role="form" method="post" action="#">
                                                     Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                                     <br />
@@ -321,7 +325,6 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                         <div class="card-footer">
                                             <small class="text-muted">Last updated 0 mins ago</small>
                                         </div>
-                                        <div class="card"></div>
                                     </div>';
                     
                             echo $_SESSION['newBathroom'];
@@ -332,15 +335,18 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         }
 
                     ?>
-                    <div class="card"></div><div class="card"></div>
+                    
                 </div>
             
             <br />
+            
+            
         <div class="card">
             <h3 class="card-header">Add Bathroom</h3>
             <div class="card-block">
-               <br />
-                <a href="addWashrooms.php" class="btn btn-primary">Add Washroom!</a>
+                <h4 class="card-title">Cleanest bathroom of the month</h4>
+                <p class="card-text">SE2 - First floor</p>
+                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
 
             </div>
             <br />
