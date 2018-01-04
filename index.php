@@ -1,4 +1,4 @@
-<?php session_start(); 
+<?php session_start();
 
 extract($_POST);
 
@@ -180,7 +180,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
@@ -205,7 +205,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
@@ -236,7 +236,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
@@ -262,7 +262,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
@@ -287,16 +287,38 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
+
+                <!-- DELETE?? -->
+                <div class="card-deck">
+                    <?php if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
+                        } else {
+                            echo $_SESSION['newBathroom'];
+                        }
+                    ?>
+                </div>
             </div>
 
             <br />
+
+
+        <div class="card">
+            <h3 class="card-header">Add Bathroom</h3>
+            <div class="card-block">
+                <h4 class="card-title">Cleanest bathroom of the month</h4>
+                <p class="card-text">SE2 - First floor</p>
+                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
+
+            </div>
+            <br />
+        </div>
+        <br />
         </div>
     </div>
 </body>
