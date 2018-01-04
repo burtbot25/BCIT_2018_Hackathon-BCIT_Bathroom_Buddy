@@ -39,6 +39,7 @@
         <?php 
 
         ?>
+           <!--
             <div class="col-xs-12 form-group text-center">
             <fieldset class="rating text-center">
               <div class="col-xs-12 text-center">Smell: </div>  
@@ -87,7 +88,7 @@
     <input type="radio" id="trafficstarhalf" name="trafficrating" value="0.5" /><label class="half" for="trafficstarhalf" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                
+                                -->
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
                             </form> 
         

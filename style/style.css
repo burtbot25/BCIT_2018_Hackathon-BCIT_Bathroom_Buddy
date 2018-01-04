@@ -11,15 +11,16 @@ h1 { font-size: 1.5em; margin: 10px; }
 
 .rating { 
   border: none;
-  float: left;
+ display: relative;
+    left: 0px;
+    clear: left;
+    margin: auto;
 }
-
-
 
 .rating > input { display: none; } 
 .rating > label:before { 
-  margin: 5px;
-  font-size: 1.25em;
+  margin: 25px;
+  font-size: 1.5em;
   font-family: FontAwesome;
   display: inline-block;
   content: "\f005";
@@ -33,6 +34,12 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > label { 
   color: #ddd; 
  float: right; 
+    clear: left;
+    margin: auto;
+}
+
+.centering {
+    display:inline-block;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
