@@ -571,13 +571,55 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                                 <li class="list-group-item">Cleanliness: ' . $_POST['cleanrating'] . '</li>
                                                 <li class="list-group-item">Traffic: ' . $_POST['trafficrating'] . '</li>
                                                 <form class="form" role="form" method="post" action="#">
-                                                    Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                                    <br />
-                                                    Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                                    <br />
-                                                    Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                                    <br />
-                                                    <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                                    <div class="col-xs-12 form-group text-center">
+            <fieldset class="rating text-center">
+              <div class="col-xs-12 text-center">Smell: </div>  
+                <br/>
+    <input type="radio" id="#" name="#" value="5" /><label class = "full" for="#" title="Awesome - 5 stars"></label>
+    <input type="radio" id="#" name="#" value="4.5" /><label class="half" for="#" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="#" name="#" value="4" /><label class = "full" for="#" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="#" name="#" value="3.5" /><label class="half" for="#" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="#" name="#" value="3" /><label class = "full" for="#" title="Meh - 3 stars"></label>
+    <input type="radio" id="#" name="#" value="2.5" /><label class="half" for="#" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="#" name="#" value="2" /><label class = "full" for="#" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="#" name="#" value="1.5" /><label class="half" for="#" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="#" name="#" value="1" /><label class = "full" for="#" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
+            </fieldset>
+            </div>
+            <div class="col-xs-12 form-group text-center">
+            <fieldset class="rating">
+            <div class="col-xs-12 text-center">Cleanliness: </div>  
+                <br/>
+    <input type="radio" id="#" name="#" value="5" /><label class = "full" for="#" title="Awesome - 5 stars"></label>
+    <input type="radio" id="#" name="#" value="4.5" /><label class="half" for="#" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="#" name="#" value="4" /><label class = "full" for="#" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="#" name="#" value="3.5" /><label class="half" for="#" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="#" name="#" value="3" /><label class = "full" for="#" title="Meh - 3 stars"></label>
+    <input type="radio" id="#" name="#" value="2.5" /><label class="half" for="#" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="#" name="#" value="2" /><label class = "full" for="#" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="#" name="#" value="1.5" /><label class="half" for="#" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="#" name="#" value="1" /><label class = "full" for="#" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
+            </fieldset>
+            </div>
+            <div class="col-xs-12 form-group text-center">
+            <fieldset class="rating">
+            <div class="col-xs-12 text-center">Traffic: </div>  
+                <br/>
+    <input type="radio" id="#" name="#" value="5" /><label class = "full" for="#" title="Awesome - 5 stars"></label>
+    <input type="radio" id="#" name="#" value="4.5" /><label class="half" for="#" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="#" name="#" value="4" /><label class = "full" for="#" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="#" name="#" value="3.5" /><label class="half" for="#" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="#" name="#" value="3" /><label class = "full" for="#" title="Meh - 3 stars"></label>
+    <input type="radio" id="#" name="#" value="2.5" /><label class="half" for="#" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="#" name="#" value="2" /><label class = "full" for="#" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="#" name="#" value="1.5" /><label class="half" for="#" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="#" name="#" value="1" /><label class = "full" for="#" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
+            </fieldset>
+            </div>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
                                                 </form> 
                                             </ul>
                                         </div>
