@@ -1,8 +1,5 @@
 
 
-
-
-
 img {
     height: 300px;
 }
@@ -21,6 +18,7 @@ h1 { font-size: 1.5em; margin: 10px; }
   border: none;
   float: left;
     clear: left;
+    margin: auto;
 }
 
 .rating > input { display: none; } 
@@ -41,10 +39,7 @@ h1 { font-size: 1.5em; margin: 10px; }
   color: #ddd; 
  float: right; 
     clear: left;
-}
-
-.clearLeft{
-    clear: left;
+    margin: auto;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/

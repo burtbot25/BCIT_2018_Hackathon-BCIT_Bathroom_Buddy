@@ -192,7 +192,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 
                                 
                                 
-                                <input type="submit" class="btn btn-primary submit" name="submit" id="submit" value="Submit"/>
+                                <input type="submit" class="btn btn-primary rating" name="submit" id="submit" value="Submit"/>
                                 
                                 
                             </form> 
