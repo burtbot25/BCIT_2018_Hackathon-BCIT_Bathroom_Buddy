@@ -1,5 +1,5 @@
 .rating {
-    float:left;
+    float:center;
 }
 
 /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
@@ -12,7 +12,7 @@
 }
 
 .rating:not(:checked) > label {
-    float:right;
+    float:center;
     width:1em;
     padding:0 .1em;
     overflow:hidden;
