@@ -344,9 +344,8 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
         <div class="card">
             <h3 class="card-header">Add Bathroom</h3>
             <div class="card-block">
-                <h4 class="card-title">Cleanest bathroom of the month</h4>
-                <p class="card-text">SE2 - First floor</p>
-                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
+               <br />
+                <a href="addWashrooms.php" class="btn btn-primary">Add Washroom!</a>
 
             </div>
             <br />
