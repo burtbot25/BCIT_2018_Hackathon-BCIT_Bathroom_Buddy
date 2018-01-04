@@ -99,7 +99,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                 <div class="card">
                     <img class="card-img-top img-fluid" src="bathroom/bathroom1.jpg" alt="Card image cap">
                     <div class="card-block">
-                        <h4 class="card-title">Tim Horton's SE9</h4>
+                        <h4 class="card-title">SW4 - 4310</h4>
                         <p class="card-text">This bathroom has 6 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Overall: 
@@ -342,9 +342,8 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
         <div class="card">
             <h3 class="card-header">Add Bathroom</h3>
             <div class="card-block">
-                <h4 class="card-title">Cleanest bathroom of the month</h4>
-                <p class="card-text">SE2 - First floor</p>
-                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
+               <br />
+                <a href="addWashrooms.php" class="btn btn-primary">Add Washroom!</a>
 
             </div>
             <br />
