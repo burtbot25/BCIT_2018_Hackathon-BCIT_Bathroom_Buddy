@@ -53,12 +53,12 @@
                     <img class="card-img-top img-fluid" src="bathroom/bathroom1.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Tim Horton's SE9</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This bathroom has 6 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 4</li>
+                            <li class="list-group-item">Smell: 5</li>
+                            <li class="list-group-item">Cleanliness: 3</li>
+                            <li class="list-group-item">Traffic: 4</li>
 
                         </ul>
                     </div>
@@ -70,13 +70,13 @@
                 <div class="card">
                     <img class="card-img-top img-fluid" src="bathroom/bathroom2.jpg" alt="Card image cap">
                     <div class="card-block">
-                        <h4 class="card-title">NE1 - 209</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h4 class="card-title">Tim Horton's SE9</h4>
+                        <p class="card-text">This bathroom has 3 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 3.83</li>
+                            <li class="list-group-item">Smell: 3.5</li>
+                            <li class="list-group-item">Cleanliness: 4</li>
+                            <li class="list-group-item">Traffic: 4</li>
 
                         </ul>
                     </div>
@@ -88,12 +88,12 @@
                     <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW1 - 1039</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This bathroom has 6 stalls and 2 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 3</li>
+                            <li class="list-group-item">Smell: 3</li>
+                            <li class="list-group-item">Cleanliness: 3</li>
+                            <li class="list-group-item">Traffic: 3</li>
 
                         </ul>
                     </div>
@@ -111,12 +111,12 @@
                     <img class="card-img-top img-fluid" src="bathroom/bathroom4.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW9 - 2002</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This bathroom has 4 stalls and 2 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 3.3</li>
+                            <li class="list-group-item">Smell: 2</li>
+                            <li class="list-group-item">Cleanliness: 5</li>
+                            <li class="list-group-item">Traffic: 3</li>
 
                         </ul>
                     </div>
@@ -129,12 +129,12 @@
                     <img class="card-img-top img-fluid" src="bathroom/bathroom5.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE9 - 202</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This bathroom has 7 stalls and 0 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 2</li>
+                            <li class="list-group-item">Smell: 2</li>
+                            <li class="list-group-item">Cleanliness: 2</li>
+                            <li class="list-group-item">Traffic: 2</li>
 
                         </ul>
                     </div>
@@ -146,12 +146,12 @@
                     <img class="card-img-top img-fluid" src="bathroom/bathroom6.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE12 - 1001</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">This bathroom has 4 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall</li>
-                            <li class="list-group-item">Smell</li>
-                            <li class="list-group-item">Cleanliness</li>
-                            <li class="list-group-item">Traffic</li>
+                            <li class="list-group-item">Overall: 1</li>
+                            <li class="list-group-item">Smell: 1</li>
+                            <li class="list-group-item">Cleanliness: 1</li>
+                            <li class="list-group-item">Traffic: 1</li>
 
                         </ul>
                     </div>
