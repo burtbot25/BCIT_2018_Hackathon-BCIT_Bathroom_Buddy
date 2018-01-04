@@ -20,7 +20,7 @@ if ($_SESSION['cleanCount'] == 0){
 if (isset($cleanRating)){
     $_SESSION['cleanSum'] += $cleanRating;
     $_SESSION['cleanCount'] += 1;
-} 
+}
 
 if ($_SESSION['cleanCount'] != 0){
     $_SESSION['cleanTotal'] = round(($_SESSION['cleanSum'] / $_SESSION['cleanCount']), 2);
@@ -34,7 +34,7 @@ if ($_SESSION['smellCount'] == 0){
 if (isset($smellRating)){
     $_SESSION['smellSum'] += $smellRating;
     $_SESSION['smellCount'] += 1;
-} 
+}
 
 if ($_SESSION['smellCount'] != 0){
     $_SESSION['smellTotal'] = round(($_SESSION['smellSum'] / $_SESSION['smellCount']), 2);
@@ -48,7 +48,7 @@ if ($_SESSION['trafficCount'] == 0){
 if (isset($trafficRating)){
     $_SESSION['trafficSum'] += $trafficRating;
     $_SESSION['trafficCount'] += 1;
-} 
+}
 
 if ($_SESSION['trafficCount'] != 0){
     $_SESSION['trafficTotal'] = round(($_SESSION['trafficSum'] / $_SESSION['trafficCount']), 2);
@@ -81,6 +81,18 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <div class="container-fluid text-center">
         <img src="logo.png">
 
+
+        <div class="card">
+            <h3 class="card-header">Featured Bathroom</h3>
+            <div class="card-block">
+                <h4 class="card-title">Cleanest bathroom of the month</h4>
+                <p class="card-text">SE2 - First floor</p>
+                <a href="#" class="btn btn-primary">Go there now!</a>
+
+            </div>
+            <br />
+        </div>
+
         <br />
         <div class="container">
 
@@ -102,37 +114,37 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         <h4 class="card-title">Tim Horton's SE9</h4>
                         <p class="card-text">This bathroom has 6 stalls and 3 urinals.</p>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall: 
-                                <?php 
-                                    echo $_SESSION['overallTotal']; 
-                                ?> 
+                            <li class="list-group-item">Overall:
+                                <?php
+                                    echo $_SESSION['overallTotal'];
+                                ?>
                             </li>
-                            <li class="list-group-item">Smell: 
-                                <?php 
+                            <li class="list-group-item">Smell:
+                                <?php
                                     if (!isset($_SESSION['smellTotal'])){
                                         $_SESSION['smellTotal'] = 0;
                                     }
-                                    echo $_SESSION['smellTotal']; 
-                                ?> 
+                                    echo $_SESSION['smellTotal'];
+                                ?>
                             </li>
-                            
-                            <li class="list-group-item">Cleanliness: 
-                                <?php 
-                                
+
+                            <li class="list-group-item">Cleanliness:
+                                <?php
+
                                     if (!isset($_SESSION['cleanTotal'])){
                                         $_SESSION['cleanTotal'] = 0;
                                     }
-                                    echo $_SESSION['cleanTotal']; 
-                                ?> 
+                                    echo $_SESSION['cleanTotal'];
+                                ?>
                             </li>
-                            
-                            <li class="list-group-item">Traffic: 
+
+                            <li class="list-group-item">Traffic:
                                 <?php
                                     if (!isset($_SESSION['trafficTotal'])){
                                         $_SESSION['trafficTotal'] = 0;
                                     }
-                                    echo $_SESSION['trafficTotal']; 
-                                ?> 
+                                    echo $_SESSION['trafficTotal'];
+                                ?>
                             </li>
                             <form class="form" role="form" method="post" action="index.php">
                                 Smell <input class="text-center" type="text" name="smellRating" id="smellRating" placeholder="Enter rating"/>
@@ -142,7 +154,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 Traffic <input class="text-center" type="text" name="trafficRating" id="trafficRating" placeholder="Enter rating"/>
                                 <br />
                                 <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit"/>
-                            </form> 
+                            </form>
                         </ul>
                     </div>
                     <div class="card-footer">
@@ -245,19 +257,6 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
             </div>
 
             <br />
-            
-            
-        <div class="card">
-            <h3 class="card-header">Add Bathroom</h3>
-            <div class="card-block">
-                <h4 class="card-title">Cleanest bathroom of the month</h4>
-                <p class="card-text">SE2 - First floor</p>
-                <a href="#" class="btn btn-primary">Go there now!</a>
-
-            </div>
-            <br />
-        </div>
-        <br />
         </div>
     </div>
 </body>

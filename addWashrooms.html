@@ -5,17 +5,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 	<meta charset="utf-8" />
 </head>
 <body>
-    
+
     <div class="container text-center">
         <img src="logo.png">
         <div class="col-xs-12, title">
             Add a new washroom!
         </div>
-        <form action="/action_page.php">
+        <form action="index.php" method="get">
           <div class="form-group">
             <label for="building">Building:</label>
             <input type="building" class="form-control" id="building">
@@ -35,7 +35,7 @@
             <div class="col-xs-12">
               <fieldset class="rating" id="smell">
               <legend>Smell:</legend>
-              
+
                <input type="radio" id="star5" name="smell" value="5" class="star"/><label for="star5" title="Rocks!" class="star">5 stars</label>
                 <input type="radio" id="star4" name="smell" value="4" class="star"/><label for="star4" title="Pretty good" class="star">4 stars</label>
                 <input type="radio" id="star3" name="smell" value="3" class="star"/><label for="star3" title="Meh" class="star">3 stars</label>
@@ -64,8 +64,7 @@
               </fieldset>
             </div>
             <div class="col-xs-12"><button type="submit" class="btn btn-default">Submit</button></div>
-        </form> 
-        
+        </form>
     </div>
     </body>
 </html>
