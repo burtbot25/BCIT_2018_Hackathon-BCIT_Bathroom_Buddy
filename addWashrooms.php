@@ -27,19 +27,19 @@
                 <div class="card">
         <form method="post" action="index.php">
           <div class="form-group">
-            <label for="building">Building:</label>
+            <label class="card-text" for="building"><h3>Building:</h3></label>
             <input type="text" class="form-control" name="building" id="building">
           </div>
           <div class="form-group">
-            <label for="floor">Floor:</label>
+              <label class="card-text" for="floor"><h3>Floor:</h3></label>
             <input type="text" class="form-control" name="floor" id="floor">
           </div>
             <div class="form-group">
-            <label for="stalls">Stalls:</label>
+                <label class="card-text" for="stalls"><h3>Stalls:</h3></label>
             <input type="text" class="form-control" name="stalls" id="stalls">
           </div>
             <div class="form-group">
-            <label for="urinals">Urinals:</label>
+                <label class="card-text" for="urinals"><h3>Urinals:</h3></label>
             <input type="text" class="form-control" name="urinals" id="urinals">
           </div>
             
