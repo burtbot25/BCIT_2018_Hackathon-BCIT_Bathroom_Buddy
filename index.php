@@ -189,7 +189,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 
                                 
                                 
-                                <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit"/>
+                                <input type="submit" class="btn btn-primary submit" name="submit" id="submit" value="Submit"/>
                                 
                                 
                             </form> 
@@ -600,7 +600,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
             <h3 class="card-header">Add Bathroom</h3>
             <div class="card-block">
                <br />
-                <a href="addWashrooms.php" class="btn btn-primary">Add Washroom!</a>
+                <a href="addWashrooms.php" class="btn btn-primary">Add New</a>
 
             </div>
             <br />
