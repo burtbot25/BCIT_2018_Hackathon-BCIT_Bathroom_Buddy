@@ -298,7 +298,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
 
 
                             $_SESSION['newBathroom'] =
-                                '<div id="card7" class="card" style="max-width: 31%;">
+                                '<div id="card7" class="card">
                                         <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
                                         <div class="card-block">
                                             <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
@@ -322,6 +322,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                         <div class="card-footer">
                                             <small class="text-muted">Last updated 0 mins ago</small>
                                         </div>
+                                        <div class="card"></div>
                                     </div>';
                     
                             echo $_SESSION['newBathroom'];
@@ -332,7 +333,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         }
 
                     ?>
-                    
+                    <div class="card"></div><div class="card"></div>
                 </div>
             
             <br />
