@@ -19,7 +19,7 @@
 <body>
     <!-- Comment -->
     <div class="container text-center">
-        <img src="logo.png">
+        <a href="index.php"><img src="logo.png"></a>
         <div class="col-xs-12, title">
             <h1>Add a new washroom!</h1>
         </div>

@@ -79,7 +79,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
 <body>
 
     <div class="container-fluid text-center">
-        <img src="logo.png">
+        <a href="index.php"><img src="logo.png"></a>
 <div class="row">
       <div class="col-12">
        <p class="text-center"><strong>Bathroom Buddies (Team 10) </strong>- Alex, Harman, Rys, Wilburt</p>
