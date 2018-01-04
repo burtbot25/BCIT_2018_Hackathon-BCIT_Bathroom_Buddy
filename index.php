@@ -282,8 +282,17 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
+                
+                <!-- DELETE?? -->
+                <div class="card-deck">
+                    <?php if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
+                        } else {
+                            echo $_SESSION['newBathroom'];
+                        }
+                    ?>
+                </div>
             </div>
-
+            
             <br />
             
             
@@ -292,7 +301,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
             <div class="card-block">
                 <h4 class="card-title">Cleanest bathroom of the month</h4>
                 <p class="card-text">SE2 - First floor</p>
-                <a href="#" class="btn btn-primary">Go there now!</a>
+                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
 
             </div>
             <br />
