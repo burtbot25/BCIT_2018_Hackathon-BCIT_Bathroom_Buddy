@@ -304,10 +304,10 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                             <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
                                             <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . ' stalls and ' . $_SESSION['urinals'] . ' urinals.</p>
                                             <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">Overall: </li>
-                                                <li class="list-group-item">Smell: </li>
-                                                <li class="list-group-item">Cleanliness: </li>
-                                                <li class="list-group-item">Traffic: </li>
+                                                <li class="list-group-item">Overall: ' . (($_POST['newsmell'] + $_POST['newclean'] + $_POST['newtraffic']) / 3) . '</li>
+                                                <li class="list-group-item">Smell: ' . $_POST['newsmell'] . '</li>
+                                                <li class="list-group-item">Cleanliness: ' . $_POST['newclean'] . '</li>
+                                                <li class="list-group-item">Traffic: ' . $_POST['newtraffic'] . '</li>
                                                 <form class="form" role="form" method="post" action="#">
                                                     Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                                     <br />
