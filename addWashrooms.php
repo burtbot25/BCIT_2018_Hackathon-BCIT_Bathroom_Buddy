@@ -17,7 +17,6 @@
         <div class="col-xs-12, title">
             Add a new washroom!
         </div>
-        <form method="post" action="addWashroom.php">
         <form method="post" action="index.php">
 
           <div class="form-group">

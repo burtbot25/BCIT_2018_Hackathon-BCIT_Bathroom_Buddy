@@ -82,16 +82,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
         <img src="logo.png">
 
 
-        <div class="card">
-            <h3 class="card-header">Featured Bathroom</h3>
-            <div class="card-block">
-                <h4 class="card-title">Cleanest bathroom of the month</h4>
-                <p class="card-text">SE2 - First floor</p>
-                <a href="#" class="btn btn-primary">Go there now!</a>
 
-            </div>
-            <br />
-        </div>
 
         <br />
         <div class="container">
@@ -329,16 +320,16 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                             Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
                                             <br />
                                             <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                                        </form> 
+                                        </form>
                                     </ul>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Last updated 0 mins ago</small>
                                 </div>
                             </div>';
-                    
+
                     ?>
-                    
+
                 </div>
             </div>
 
