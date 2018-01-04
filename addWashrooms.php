@@ -17,11 +17,9 @@
         <div class="col-xs-12, title">
             Add a new washroom!
         </div>
-<<<<<<< HEAD:addWashrooms.html
-        <form action="index.php" method="get">
-=======
         <form method="post" action="addWashroom.php">
->>>>>>> 9eaffd66fb965cffa23a4a0bed4890cfeac98e54:addWashrooms.php
+        <form method="post" action="index.php">
+
           <div class="form-group">
             <label for="building">Building:</label>
             <input type="text" class="form-control" name="building" id="building">
@@ -38,65 +36,19 @@
             <label for="urinals">Urinals:</label>
             <input type="text" class="form-control" name="urinals" id="urinals">
           </div>
-            
-            
-        <?php 
-            
-        $_SESSION['building'] = $_POST['building'];
-        $_SESSION['floor'] = $_POST['floor'];
-        $_SESSION['stalls'] = $_POST['stalls'];
-        $_SESSION['urinals'] = $_POST['urinals'];
-        
-        
-            
-        $_SESSION['newBathroom'] =
-            '<div class="card">
-                    <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
-                        <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . 'stalls and ' . $_SESSION['urinals'] . 'urinals.</p>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Overall: </li>
-                            <li class="list-group-item">Smell: </li>
-                            <li class="list-group-item">Cleanliness: </li>
-                            <li class="list-group-item">Traffic: </li>
-                            <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                            </form> 
-                        </ul>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 0 mins ago</small>
-                    </div>
-                </div>';
-        
 
-        ?>
-            
-            
-            
             <div class="col-xs-12">
               <fieldset class="rating" id="smell">
               <legend>Smell:</legend>
-<<<<<<< HEAD:addWashrooms.html
 
-=======
-              
               <input type="radio" id="star1" name="smell" value="1" class="star"/><label for="star1" title="Sucks big time" class="star">1 star</label>
               <input type="radio" id="star2" name="smell" value="2" class="star"/><label for="star2" title="Kinda bad" class="star">2 stars</label>
               <input type="radio" id="star3" name="smell" value="3" class="star"/><label for="star3" title="Meh" class="star">3 stars</label>
               <input type="radio" id="star4" name="smell" value="4" class="star"/><label for="star4" title="Pretty good" class="star">4 stars</label>
->>>>>>> 9eaffd66fb965cffa23a4a0bed4890cfeac98e54:addWashrooms.php
                <input type="radio" id="star5" name="smell" value="5" class="star"/><label for="star5" title="Rocks!" class="star">5 stars</label>
               </fieldset>
             </div>
-            
+
             <div class="col-xs-12">
             <fieldset class="rating" id="clean">
               <legend>Cleanliness:</legend>
