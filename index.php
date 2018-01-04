@@ -29,12 +29,12 @@
                 <h4 class="card-title">Cleanest bathroom of the month</h4>
                 <p class="card-text">SE2 - First floor</p>
                 <a href="#" class="btn btn-primary">Go there now!</a>
-                
+
             </div>
             <br />
         </div>
 
-<br />
+        <br />
         <div class="container">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,7 +50,7 @@
 
             <div class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom1.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom1.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Tim Horton's SE9</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom2.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom2.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">NE1 - 209</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom3.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW1 - 1039</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -108,7 +108,7 @@
 
             <div class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom4.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom4.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SW9 - 2002</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -126,7 +126,7 @@
                 </div>
 
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom5.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom5.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE9 - 202</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -143,7 +143,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="bathroom/bathroom6.jpg" alt="Card image cap">
+                    <img class="card-img-top img-fluid" src="bathroom/bathroom6.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">SE12 - 1001</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -163,7 +163,7 @@
 
             <br />
         </div>
-
+    </div>
 </body>
 
 </html>
