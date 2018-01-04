@@ -95,16 +95,16 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
 
         <br />
         <div class="container">
+
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown button
-  </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <button class="dropbtn">Sort by:</button>
+                <div class="dropdown-content">
+                    <a href="#">Smell</a>
+                    <a href="#">Cleanliness</a>
+                    <a href="#">Traffic</a>
                 </div>
             </div>
+            <br />
             <br />
 
             <div class="card-deck">
