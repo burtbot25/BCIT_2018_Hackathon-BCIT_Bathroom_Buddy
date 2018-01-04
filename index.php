@@ -296,7 +296,6 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             $_SESSION['stalls'] = $_POST['stalls'];
                             $_SESSION['urinals'] = $_POST['urinals'];
 
-
                             $_SESSION['newBathroom'] =
                                 '<div id="card7" class="card" style="max-width: 31%;">
                                         <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
@@ -336,8 +335,6 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                 </div>
             
             <br />
-            
-            
         <div class="card">
             <h3 class="card-header">Add Bathroom</h3>
             <div class="card-block">
