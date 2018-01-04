@@ -77,8 +77,13 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
 </head>
 
 <body>
+<<<<<<< HEAD
 
     <div class="container-fluid text-center">
+=======
+    <!-- Comment -->
+    <div class="container text-center">
+>>>>>>> bf9e20d1b52805e9873c7ba92dcb03565707d2aa
         <img src="logo.png">
 <div class="row">
       <div class="col-12">

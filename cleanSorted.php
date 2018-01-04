@@ -640,7 +640,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 echo '<script>var show = true;</script>';
                             }
                         }
-
+<!-- Comment -->
                     ?>
                     <div class="card"></div><div class="card"></div>
                 </div>
