@@ -21,7 +21,7 @@
     <div class="container text-center">
         <a href="index.php"><img src="logo.png"></a>
         <div class="col-xs-12, title">
-            <h1>Add a new washroom!</h1>
+            <h1>Add a new bathroom!</h1>
         </div>
         <div class="card-deck">
                 <div class="card">
@@ -100,12 +100,14 @@
                                 <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
                             </form> 
         
-        
+        <br />
             
             
             </div>
         </div>
+        <br />
     </div>
+    
     <script>
     $("#sub").click(function(){
         var show = true;
