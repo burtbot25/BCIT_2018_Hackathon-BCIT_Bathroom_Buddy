@@ -142,7 +142,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 
                                 
                                 <div class="col-xs-12 form-group text-center">
-            <fieldset class="rating text-center">
+            <fieldset class="rating text-center ">
               <div class="col-xs-12 text-center">Smell: </div>  
                 <br/>
     <input type="radio" id="smellstar5" name="smellRating" value="5" /><label class = "full" for="smellstar5" title="Awesome - 5 stars"></label>
@@ -262,7 +262,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit"/>
+                                <input type="submit" class="btn btn-primary  rating" name="submit" id="submit" value="Submit"/>
                             </form> 
                         </ul>
                     </div>
@@ -329,7 +329,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary rating" name="#" id="#" value="Submit"/>
                             </form> 
                         </ul>
                     </div>
@@ -402,7 +402,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary rating" name="#" id="#" value="Submit"/>
                             </form> 
                         </ul>
                     </div>
@@ -470,7 +470,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary rating" name="#" id="#" value="Submit"/>
                             </form> 
                         </ul>
                     </div>
@@ -537,7 +537,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <input type="radio" id="#" name="#" value="0.5" /><label class="half" for="#" title="Sucks big time - 0.5 stars"></label>
             </fieldset>
             </div>
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary rating" name="#" id="#" value="Submit"/>
                             </form> 
                         </ul>
                     </div>
