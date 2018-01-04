@@ -292,13 +292,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         } else {
                             echo $_SESSION['newBathroom'];
                         }
-                    ?>
-                    <?php
+
                     $_SESSION['building'] = $_POST['building'];
                     $_SESSION['floor'] = $_POST['floor'];
                     $_SESSION['stalls'] = $_POST['stalls'];
                     $_SESSION['urinals'] = $_POST['urinals'];
-
 
 
                     $_SESSION['newBathroom'] =
@@ -306,7 +304,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
                                 <div class="card-block">
                                     <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
-                                    <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . 'stalls and ' . $_SESSION['urinals'] . 'urinals.</p>
+                                    <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . ' stalls and ' . $_SESSION['urinals'] . ' urinals.</p>
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">Overall: </li>
                                         <li class="list-group-item">Smell: </li>
