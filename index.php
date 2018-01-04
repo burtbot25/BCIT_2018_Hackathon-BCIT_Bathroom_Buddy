@@ -138,13 +138,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 ?>
                             </li>
                             <form class="form" role="form" method="post" action="index.php">
-                                Smell <input class="text-center" type="text" name="smellRating" id="smellRating" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="smellRating" id="smellRating" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="cleanRating" id="cleanRating" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="trafficRating" id="trafficRating" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="cleanRating" id="cleanRating" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="trafficRating" id="trafficRating" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="submit" id="submit" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -164,13 +162,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             <li class="list-group-item">Cleanliness: 4</li>
                             <li class="list-group-item">Traffic: 4</li>
                             <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -189,13 +185,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             <li class="list-group-item">Cleanliness: 3</li>
                             <li class="list-group-item">Traffic: 3</li>
                             <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -220,13 +214,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             <li class="list-group-item">Cleanliness: 5</li>
                             <li class="list-group-item">Traffic: 3</li>
                             <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -246,13 +238,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             <li class="list-group-item">Cleanliness: 2</li>
                             <li class="list-group-item">Traffic: 2</li>
                             <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -271,13 +261,11 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                             <li class="list-group-item">Cleanliness: 1</li>
                             <li class="list-group-item">Traffic: 1</li>
                             <form class="form" role="form" method="post" action="#">
-                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
+                                <br /> Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating" />
                                 <br />
-                                Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                <br />
-                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit" />
                             </form>
                         </ul>
                     </div>
@@ -286,9 +274,13 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                     </div>
                 </div>
 
-                <!-- DELETE?? -->
-                <div class="card-deck">
-                    <?php if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
+
+
+            </div>
+            <!-- DELETE?? -->
+            <br />
+            <div class="card-deck">
+                <?php if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
                         } else {
                             echo $_SESSION['newBathroom'];
                         }
@@ -324,27 +316,27 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                                 <div class="card-footer">
                                     <small class="text-muted">Last updated 0 mins ago</small>
                                 </div>
-                            </div>';
+                            </div>
+                            <div class="card"></div><div class="card"></div>
+                            ';
 
                     ?>
+            </div>
+
+            <br />
+
+
+            <div class="card">
+                <h3 class="card-header">Add Bathroom</h3>
+                <div class="card-block">
+                    <h4 class="card-title">Cleanest bathroom of the month</h4>
+                    <p class="card-text">SE2 - First floor</p>
+                    <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
 
                 </div>
-            </div>
-
-            <br />
-
-
-        <div class="card">
-            <h3 class="card-header">Add Bathroom</h3>
-            <div class="card-block">
-                <h4 class="card-title">Cleanest bathroom of the month</h4>
-                <p class="card-text">SE2 - First floor</p>
-                <a href="addWashrooms.php" class="btn btn-primary">Go there now!</a>
-
+                <br />
             </div>
             <br />
-        </div>
-        <br />
         </div>
     </div>
 </body>
