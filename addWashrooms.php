@@ -17,7 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-    
+    <!-- Comment -->
     <div class="container text-center">
         <img src="logo.png">
         <div class="col-xs-12, title">
