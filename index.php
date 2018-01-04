@@ -72,7 +72,7 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-
+    <script>var show = false;</script>
 
 </head>
 
@@ -282,51 +282,58 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
                         <small class="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div>
+            </div>
+            
+            <br />
+            <div class="card-deck">
+                <?php 
                 
-                <!-- DELETE?? -->
-                <div class="card-deck">
-                    <?php if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
+                if (!isset($_SESSION['newBathroom']) && !empty($_SESSION['newBathroom'])){
                         } else {
+                            
+                            $_SESSION['building'] = $_POST['building'];
+                            $_SESSION['floor'] = $_POST['floor'];
+                            $_SESSION['stalls'] = $_POST['stalls'];
+                            $_SESSION['urinals'] = $_POST['urinals'];
+
+
+                            $_SESSION['newBathroom'] =
+                                '<div id="card7" class="card" style="max-width: 31%;">
+                                        <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
+                                        <div class="card-block">
+                                            <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
+                                            <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . ' stalls and ' . $_SESSION['urinals'] . ' urinals.</p>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Overall: </li>
+                                                <li class="list-group-item">Smell: </li>
+                                                <li class="list-group-item">Cleanliness: </li>
+                                                <li class="list-group-item">Traffic: </li>
+                                                <form class="form" role="form" method="post" action="#">
+                                                    Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                                    <br />
+                                                    Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                                    <br />
+                                                    Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
+                                                    <br />
+                                                    <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
+                                                </form> 
+                                            </ul>
+                                        </div>
+                                        <div class="card-footer">
+                                            <small class="text-muted">Last updated 0 mins ago</small>
+                                        </div>
+                                    </div>';
+                    
                             echo $_SESSION['newBathroom'];
+                    
+                            if(isset($_SESSION['building'])){
+                                echo '<script>var show = true;</script>';
+                            }
                         }
 
-                    $_SESSION['building'] = $_POST['building'];
-                    $_SESSION['floor'] = $_POST['floor'];
-                    $_SESSION['stalls'] = $_POST['stalls'];
-                    $_SESSION['urinals'] = $_POST['urinals'];
-
-
-                    $_SESSION['newBathroom'] =
-                        '<div class="card">
-                                <img class="card-img-top img-fluid" src="bathroom/bathroom3.jpg" alt="Card image cap">
-                                <div class="card-block">
-                                    <h4 class="card-title"> ' . $_SESSION['building'] . '-' . $_SESSION['floor'] . '</h4>
-                                    <p class="card-text">This bathroom has ' . $_SESSION['stalls'] . ' stalls and ' . $_SESSION['urinals'] . ' urinals.</p>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Overall: </li>
-                                        <li class="list-group-item">Smell: </li>
-                                        <li class="list-group-item">Cleanliness: </li>
-                                        <li class="list-group-item">Traffic: </li>
-                                        <form class="form" role="form" method="post" action="#">
-                                            Smell <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                            <br />
-                                            Cleanliness <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                            <br />
-                                            Traffic <input class="text-center" type="text" name="#" id="#" placeholder="Enter rating"/>
-                                            <br />
-                                            <input type="submit" class="btn btn-primary" name="#" id="#" value="Submit"/>
-                                        </form> 
-                                    </ul>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 0 mins ago</small>
-                                </div>
-                            </div>';
-                    
                     ?>
                     
                 </div>
-            </div>
             
             <br />
             
@@ -344,6 +351,16 @@ $_SESSION['overallTotal'] = round((($_SESSION['cleanTotal'] + $_SESSION['smellTo
         <br />
         </div>
     </div>
+    
+    <script> 
+        
+        if (show === false) {
+            $("#card7").hide();
+        } else {
+            $("#card7").show();     
+        }
+    </script>
+    
 </body>
 
 </html>

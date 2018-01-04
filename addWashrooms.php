@@ -35,6 +35,13 @@
             <input type="text" class="form-control" name="urinals" id="urinals">
           </div>
             
+            
+        <?php 
+
+        ?>
+            
+            
+            
             <div class="col-xs-12">
               <fieldset class="rating" id="smell">
               <legend>Smell:</legend>
@@ -67,9 +74,15 @@
                 <input type="radio" id="star16" name="traffic" value="1" class="star"/><label for="star16" title="Sucks big time" class="star">1 star</label>
               </fieldset>
             </div>
-            <div class="col-xs-12"><button type="submit" class="btn btn-default">Submit</button></div>
+            <div class="col-xs-12"><button type="submit" class="btn btn-default" id="sub">Submit</button></div>
         </form> 
         
     </div>
+    <script>
+    $("#sub").click(function(){
+        var show = true;
+      });
+   
+    </script>
     </body>
 </html>
