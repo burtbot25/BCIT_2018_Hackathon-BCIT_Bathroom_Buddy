@@ -12,4 +12,4 @@ People have different preferences and criteria for suitable washrooms and we wan
 
 The value this app adds is that it gives users the knowledge of where the bathrooms are so they can quickly navigate to it in emergencies, and also know which washrooms they want to avoid and which are suitable to their own preferences.  Users are also able to add new washroom entries to the catalogue so that they can update the application with the latest information in real time.
 
-This application was developed by Wilburt Herrera, Alex Lee, Harmon Minhas, and Rys Rabang
+This application was developed by Wilburt Herrera, Alex Lee, Harmon Minhas, and Rys Rabang.
